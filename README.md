@@ -1,5 +1,5 @@
 # Keyword-Expansion
-A mod for Demon Bluff that adds a wide range of new keywords to the game. Each of these can be hovered over in character abilities, hints, and If Lies clauses. They *should* also automatically format themselves, so you don't have to! Awesome, right?
+A mod for Demon Bluff that adds a wide range of new keywords to the game. Each of these can be hovered over in character abilities, hints, and If Lies clauses. They *should* also automatically format themselves for ease of use.
 
 Special thanks to Skill Cycler (@skillcycler on Discord) for figuring out custom keywords, this little project would *not* have been possible without them.
 
