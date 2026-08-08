@@ -1,2 +1,61 @@
 # Keyword-Expansion
-A mod for Demon Bluff that adds a wide range of new keywords to the game.
+A mod for Demon Bluff that adds a wide range of new keywords to the game. Each of these can be hovered over in character abilities, hints, and If Lies clauses. They *should* also automatically format themselves, so you don't have to! Awesome, right?
+
+Special thanks to Skill Cycler (@skillcycler on Discord) for figuring out custom keywords, this little project would *not* have been possible without them.
+
+This mod adds the following keywords:
+- Pure
+- Heal
+- Heals
+- Healed
+- Healing
+- Health
+- Damage
+- Damaged
+- Damaging
+- Role
+- True Role
+- Reveal
+- Reveals
+- Revealed
+- Revealing
+- Bluff
+- Bluffs
+- Bluffed
+- Bluffing
+- Attack
+- Attacks
+- Attacked
+- Attacker
+- Attacking
+- Kill
+- Kills
+- Killed
+- Killer
+- Killing
+- Die
+- Dies
+- Died
+- Dying
+- Dead
+- Live
+- Lives
+- Lived
+- Living
+- Alive
+- Deck
+- Deck View
+- Win
+- Lose
+- Unmask
+- Declare
+- Cycle
+- Alignment
+- Type
+- Truthfulness
+- Honesty
+- Purity
+- Sleepwalk
+- Sleepwalks
+- Sleepwalker
+- Sleepwalking
