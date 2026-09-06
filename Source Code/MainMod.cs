@@ -27,6 +27,7 @@ public class MainMod : MelonMod
 {
     public override void OnInitializeMelon()
     {
+        //MelonLogger.Msg("The following error is known about and does not seem to be affecting anything. Don't worry about it.");
         ClassInjector.RegisterTypeInIl2Cpp<wx_KeywordPatch>(); // This is throwing an error on startup but it doesn't seem to affect anything so I don't really care.
     }
 
@@ -76,10 +77,6 @@ public class MainMod : MelonMod
         for (int i = 0; i < allDatas.Count(); i++)
         {
             MelonLogger.Msg($"Patching role: {allDatas[i].characterName}");
-            if (allDatas[i].characterId == "Confessor")
-            {
-                allDatas[i].description = $"If I am Evil or Corrupted, I Declare that \"I am dizzy\".\nOtherwise, I Declare that \"I am Good\".\n\nI am always Truthful, even if Disguised.";
-            }
             allDatas[i].description = patcher.PatchTooltip(allDatas[i].description);
             allDatas[i].hints = patcher.PatchTooltip(allDatas[i].hints);
             allDatas[i].ifLies = patcher.PatchTooltip(allDatas[i].ifLies);

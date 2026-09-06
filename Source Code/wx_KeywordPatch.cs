@@ -66,17 +66,29 @@ public class wx_KeywordPatch // Code by Skill Cycler, absolute legend!
             replaceReplacements.Add("Max Health");
             replaceReplacementLink.Add("Link_H-ealth");
             replaceColour.Add("7AFBFF");
+            replaceCheckStrings.Add("Max Key2");
+            replaceReplacements.Add("Max Health");
+            replaceReplacementLink.Add("Link_H-ealth");
+            replaceColour.Add("7AFBFF");
             replaceCheckStrings.Add("Key2");
             replaceReplacements.Add("Health");
             replaceReplacementLink.Add("Link_H-ealth");
             replaceColour.Add("7AFBFF");
 
             // Damage
+            replaceCheckStrings.Add("True Damage");
+            replaceReplacements.Add("Key2");
+            replaceReplacementLink.Add("");
+            replaceColour.Add("");
             replaceCheckStrings.Add("Damaged");
             replaceReplacements.Add("Key1");
             replaceReplacementLink.Add("");
             replaceColour.Add("");
             replaceCheckStrings.Add("Damage");
+            replaceReplacements.Add("Damage");
+            replaceReplacementLink.Add("Link_D-amage");
+            replaceColour.Add("C72424");
+            replaceCheckStrings.Add("damage");
             replaceReplacements.Add("Damage");
             replaceReplacementLink.Add("Link_D-amage");
             replaceColour.Add("C72424");
@@ -88,6 +100,10 @@ public class wx_KeywordPatch // Code by Skill Cycler, absolute legend!
             replaceReplacements.Add("Damaged");
             replaceReplacementLink.Add("Link_D-amage");
             replaceColour.Add("C72424");
+            replaceCheckStrings.Add("Key2");
+            replaceReplacements.Add("True Damage");
+            replaceReplacementLink.Add("Link_T-rued-amage");
+            replaceColour.Add("FF0000");
 
             // Role/True Role
             replaceCheckStrings.Add("True Role");
@@ -294,7 +310,11 @@ public class wx_KeywordPatch // Code by Skill Cycler, absolute legend!
             replaceColour.Add("B36979");
             replaceCheckStrings.Add("Die");
             replaceReplacements.Add("Die");
-            replaceReplacementLink.Add("Link_D-eath");
+            replaceReplacementLink.Add("Link_A-ttack");
+            replaceColour.Add("B36979");
+            replaceCheckStrings.Add("die");
+            replaceReplacements.Add("Die");
+            replaceReplacementLink.Add("Link_A-ttack");
             replaceColour.Add("B36979");
             replaceCheckStrings.Add("Key1d");
             replaceReplacements.Add("Died");
@@ -345,6 +365,10 @@ public class wx_KeywordPatch // Code by Skill Cycler, absolute legend!
             replaceReplacementLink.Add("");
             replaceColour.Add("");
             replaceCheckStrings.Add("Deck");
+            replaceReplacements.Add("Deck");
+            replaceReplacementLink.Add("Link_D-eck");
+            replaceColour.Add("789AF0");
+            replaceCheckStrings.Add("deck");
             replaceReplacements.Add("Deck");
             replaceReplacementLink.Add("Link_D-eck");
             replaceColour.Add("789AF0");
@@ -487,23 +511,250 @@ public class wx_KeywordPatch // Code by Skill Cycler, absolute legend!
             replaceCheckStrings.Add("Sleepwalk");
             replaceReplacements.Add("Sleepwalk");
             replaceReplacementLink.Add("Link_S-leepwalk");
-            replaceColour.Add("092063");
+            // replaceColour.Add("092063");
+            replaceColour.Add("365487");
             replaceCheckStrings.Add("Key1er");
             replaceReplacements.Add("Sleepwalker");
             replaceReplacementLink.Add("Link_S-leepwalk");
-            replaceColour.Add("092063");
+            replaceColour.Add("365487");
             replaceCheckStrings.Add("Key1s");
             replaceReplacements.Add("Sleepwalks");
             replaceReplacementLink.Add("Link_S-leepwalk");
-            replaceColour.Add("092063");
+            replaceColour.Add("365487");
             replaceCheckStrings.Add("Key1ing");
             replaceReplacements.Add("Sleepwalking");
             replaceReplacementLink.Add("Link_S-leepwalk");
-            replaceColour.Add("092063");
+            replaceColour.Add("365487");
             replaceCheckStrings.Add("Key1ed");
             replaceReplacements.Add("Sleepwalked");
             replaceReplacementLink.Add("Link_S-leepwalk");
-            replaceColour.Add("092063");
+            replaceColour.Add("365487");
+
+            // Setup
+            replaceCheckStrings.Add("Setup");
+            replaceReplacements.Add("Setup");
+            replaceReplacementLink.Add("Link_S-etup");
+            replaceColour.Add("A97FC9");
+
+            // Pair(s)
+            replaceCheckStrings.Add("Pairs");
+            replaceReplacements.Add("Key1s");
+            replaceReplacementLink.Add("");
+            replaceColour.Add("");
+            replaceCheckStrings.Add("Pair");
+            replaceReplacements.Add("Pair");
+            replaceReplacementLink.Add("Link_P-air");
+            replaceColour.Add("A5C0CF");
+            replaceCheckStrings.Add("Key1s");
+            replaceReplacements.Add("Pairs");
+            replaceReplacementLink.Add("Link_P-air");
+            replaceColour.Add("A5C0CF");
+            replaceCheckStrings.Add("pairs");
+            replaceReplacements.Add("Key1s");
+            replaceReplacementLink.Add("");
+            replaceColour.Add("");
+            replaceCheckStrings.Add("pair");
+            replaceReplacements.Add("pair");
+            replaceReplacementLink.Add("Link_P-air");
+            replaceColour.Add("A5C0CF");
+            replaceCheckStrings.Add("Key1s");
+            replaceReplacements.Add("pairs");
+            replaceReplacementLink.Add("Link_P-air");
+            replaceColour.Add("A5C0CF");
+
+            // Setup
+            replaceCheckStrings.Add("something really interesting");
+            replaceReplacements.Add("something really interesting");
+            replaceReplacementLink.Add("Link_R-ambles");
+            replaceColour.Add("D8E3E8");
+
+            // Curse
+            replaceCheckStrings.Add("Curses");
+            replaceReplacements.Add("Key1s");
+            replaceReplacementLink.Add("");
+            replaceColour.Add("");
+            replaceCheckStrings.Add("Cursing");
+            replaceReplacements.Add("Key1ing");
+            replaceReplacementLink.Add("");
+            replaceColour.Add("");
+            replaceCheckStrings.Add("Cursed");
+            replaceReplacements.Add("Key1ed");
+            replaceReplacementLink.Add("");
+            replaceColour.Add("");
+            replaceCheckStrings.Add("Curse");
+            replaceReplacements.Add("Curse");
+            replaceReplacementLink.Add("Link_C-urse");
+            replaceColour.Add("641BD1");
+            replaceCheckStrings.Add("Key1s");
+            replaceReplacements.Add("Curses");
+            replaceReplacementLink.Add("Link_C-urse");
+            replaceColour.Add("641BD1");
+            replaceCheckStrings.Add("Key1ing");
+            replaceReplacements.Add("Cursing");
+            replaceReplacementLink.Add("Link_C-urse");
+            replaceColour.Add("641BD1");
+            replaceCheckStrings.Add("Key1ed");
+            replaceReplacements.Add("Cursed");
+            replaceReplacementLink.Add("Link_C-urse");
+            replaceColour.Add("641BD1");
+
+            // Unique
+            replaceCheckStrings.Add("Unique");
+            replaceReplacements.Add("Unique");
+            replaceReplacementLink.Add("Link_U-nique");
+            replaceColour.Add("FFFA6E");
+
+            // Conspire
+            replaceCheckStrings.Add("Conspirator");
+            replaceReplacements.Add("Key1er1");
+            replaceReplacementLink.Add("");
+            replaceColour.Add("");
+            replaceCheckStrings.Add("Conspirer");
+            replaceReplacements.Add("Key1er2");
+            replaceReplacementLink.Add("");
+            replaceColour.Add("");
+            replaceCheckStrings.Add("Conspires");
+            replaceReplacements.Add("Key1s");
+            replaceReplacementLink.Add("");
+            replaceColour.Add("");
+            replaceCheckStrings.Add("Conspiring");
+            replaceReplacements.Add("Key1ing");
+            replaceReplacementLink.Add("");
+            replaceColour.Add("");
+            replaceCheckStrings.Add("Conspired");
+            replaceReplacements.Add("Key1ed");
+            replaceReplacementLink.Add("");
+            replaceColour.Add("");
+            replaceCheckStrings.Add("Conspire");
+            replaceReplacements.Add("Conspire");
+            replaceReplacementLink.Add("Link_C-onspire");
+            replaceColour.Add("D14D8B");
+            replaceCheckStrings.Add("Key1er1");
+            replaceReplacements.Add("Conspirator");
+            replaceReplacementLink.Add("Link_C-onspire");
+            replaceColour.Add("D14D8B");
+            replaceCheckStrings.Add("Key1er2");
+            replaceReplacements.Add("Conspirator");
+            replaceReplacementLink.Add("Link_C-onspire");
+            replaceColour.Add("D14D8B");
+            replaceCheckStrings.Add("Key1s");
+            replaceReplacements.Add("Conspires");
+            replaceReplacementLink.Add("Link_C-onspire");
+            replaceColour.Add("D14D8B");
+            replaceCheckStrings.Add("Key1ing");
+            replaceReplacements.Add("Conspiring");
+            replaceReplacementLink.Add("Link_C-onspire");
+            replaceColour.Add("D14D8B");
+            replaceCheckStrings.Add("Key1ed");
+            replaceReplacements.Add("Conspired");
+            replaceReplacementLink.Add("Link_C-onspire");
+            replaceColour.Add("D14D8B");
+
+            // Repent
+            replaceCheckStrings.Add("Repentance");
+            replaceReplacements.Add("Key1ance");
+            replaceReplacementLink.Add("");
+            replaceColour.Add("");
+            replaceCheckStrings.Add("Repenter");
+            replaceReplacements.Add("Key1er");
+            replaceReplacementLink.Add("");
+            replaceColour.Add("");
+            replaceCheckStrings.Add("Repents");
+            replaceReplacements.Add("Key1s");
+            replaceReplacementLink.Add("");
+            replaceColour.Add("");
+            replaceCheckStrings.Add("Repenting");
+            replaceReplacements.Add("Key1ing");
+            replaceReplacementLink.Add("");
+            replaceColour.Add("");
+            replaceCheckStrings.Add("Repented");
+            replaceReplacements.Add("Key1ed");
+            replaceReplacementLink.Add("");
+            replaceColour.Add("");
+            replaceCheckStrings.Add("Repent");
+            replaceReplacements.Add("Repent");
+            replaceReplacementLink.Add("Link_R-epent");
+            replaceColour.Add("94F2C8");
+            replaceCheckStrings.Add("Key1er");
+            replaceReplacements.Add("Repenter");
+            replaceReplacementLink.Add("Link_R-epent");
+            replaceColour.Add("94F2C8");
+            replaceCheckStrings.Add("Key1s");
+            replaceReplacements.Add("Repents");
+            replaceReplacementLink.Add("Link_R-epent");
+            replaceColour.Add("94F2C8");
+            replaceCheckStrings.Add("Key1ing");
+            replaceReplacements.Add("Repenting");
+            replaceReplacementLink.Add("Link_R-epent");
+            replaceColour.Add("94F2C8");
+            replaceCheckStrings.Add("Key1ed");
+            replaceReplacements.Add("Repented");
+            replaceReplacementLink.Add("Link_R-epent");
+            replaceColour.Add("94F2C8");
+            replaceCheckStrings.Add("Key1ance");
+            replaceReplacements.Add("Repentance");
+            replaceReplacementLink.Add("Link_R-epent");
+            replaceColour.Add("94F2C8");
+
+            // Repent
+            replaceCheckStrings.Add("Activation");
+            replaceReplacements.Add("Key1ion");
+            replaceReplacementLink.Add("");
+            replaceColour.Add("");
+            replaceCheckStrings.Add("Activator");
+            replaceReplacements.Add("Key1er");
+            replaceReplacementLink.Add("");
+            replaceColour.Add("");
+            replaceCheckStrings.Add("Activates");
+            replaceReplacements.Add("Key1s");
+            replaceReplacementLink.Add("");
+            replaceColour.Add("");
+            replaceCheckStrings.Add("Activating");
+            replaceReplacements.Add("Key1ing");
+            replaceReplacementLink.Add("");
+            replaceColour.Add("");
+            replaceCheckStrings.Add("Activated");
+            replaceReplacements.Add("Key1ed");
+            replaceReplacementLink.Add("");
+            replaceColour.Add("");
+            replaceCheckStrings.Add("Activate");
+            replaceReplacements.Add("Activate");
+            replaceReplacementLink.Add("Link_A-ctivate");
+            replaceColour.Add("5982E3");
+            replaceCheckStrings.Add("Key1er");
+            replaceReplacements.Add("Activator");
+            replaceReplacementLink.Add("Link_A-ctivate");
+            replaceColour.Add("5982E3");
+            replaceCheckStrings.Add("Key1s");
+            replaceReplacements.Add("Activates");
+            replaceReplacementLink.Add("Link_A-ctivate");
+            replaceColour.Add("5982E3");
+            replaceCheckStrings.Add("Key1ing");
+            replaceReplacements.Add("Activating");
+            replaceReplacementLink.Add("Link_A-ctivate");
+            replaceColour.Add("5982E3");
+            replaceCheckStrings.Add("Key1ed");
+            replaceReplacements.Add("Activated");
+            replaceReplacementLink.Add("Link_A-ctivate");
+            replaceColour.Add("5982E3");
+            replaceCheckStrings.Add("Key1ion");
+            replaceReplacements.Add("Activation");
+            replaceReplacementLink.Add("Link_A-ctivate");
+            replaceColour.Add("5982E3");
+            replaceCheckStrings.Add("Refresh");
+            replaceReplacements.Add("Refresh");
+            replaceReplacementLink.Add("Link_A-ctivate");
+            replaceColour.Add("5982E3");
+            replaceCheckStrings.Add("refresh");
+            replaceReplacements.Add("Refresh");
+            replaceReplacementLink.Add("Link_A-ctivate");
+            replaceColour.Add("5982E3");
+
+            // Devoted
+            replaceCheckStrings.Add("Devoted");
+            replaceReplacements.Add("Devoted");
+            replaceReplacementLink.Add("Link_D-evoted");
+            replaceColour.Add("52FFFF");
 
 
 
@@ -727,7 +978,106 @@ public class wx_KeywordPatch // Code by Skill Cycler, absolute legend!
                 __result = new TooltipInfo(
                     patcher.PatchTooltip($"This character's ability gains an extra charge at Night.\n\nIt is recommended to use their ability during the Day so that the ability can refresh properly at night!"),
                     "Sleepwalk",
-                    new Color32(9, 32, 99, 255)
+                    new Color32(54, 84, 135, 255)
+                );
+            }
+            if (linkID == "Link_S-etup")
+            {
+                __result = new TooltipInfo(
+                    patcher.PatchTooltip($"This character's ability applies <i>before</i> all <b>Game Start</b> abilities.\n\nUsually only seen on Demon roles, and only applies if the current deck is the Demon's home-deck."),
+                    "Setup",
+                    new Color32(169, 127, 201, 255)
+                );
+            }
+            if (linkID == "Link_P-air")
+            {
+                __result = new TooltipInfo(
+                    patcher.PatchTooltip($"An instance of two adjacent characters sharing a particular attribute.\n\nTwo characters adjacent to each other = 1 pair.\nThree characters in line = 2 pairs (A/B and B/C)\nFour characters in groups of 2 = 2 pairs (A/B and D/E)"),
+                    "Pair",
+                    new Color32(165, 192, 207, 255)
+                );
+            }
+            if (linkID == "Link_T-rued-amage")
+            {
+                __result = new TooltipInfo(
+                    patcher.PatchTooltip($"A powerful type of damage that reduces your Max Health as well."),
+                    "True Damage",
+                    new Color32(255, 0, 0, 255)
+                );
+            }
+            if (linkID == "Link_R-ambles")
+            {
+                if (UnityEngine.Random.RandomRangeInt(0, 10) == 0)
+                {
+                    __result = new TooltipInfo(
+                        patcher.PatchTooltip($"Get it twisted! This statement impacts nothing!"),
+                        "Something Really Interesting",
+                        new Color32(216, 227, 232, 255)
+                    );
+                }
+                else
+                {
+                    __result = new TooltipInfo(
+                        patcher.PatchTooltip($"A statement that means nothing and does not change based on the character's Truthfulness.\n\nGet it twisted!"),
+                        "Something Really Interesting",
+                        new Color32(216, 227, 232, 255)
+                    );
+                }
+            }
+            if (linkID == "Link_C-urse")
+            {
+                __result = new TooltipInfo(
+                    patcher.PatchTooltip($"Cursed characters cannot be Revealed until the ability that Cursed them has gone inactive, usually through the death of the culprit."),
+                    "Cursed",
+                    new Color32(100, 27, 209, 255)
+                );
+            }
+            if (linkID == "Link_U-nique")
+            {
+                __result = new TooltipInfo(
+                    patcher.PatchTooltip($"If a role is Unique, that means it can only appear once per village under normal circumstances.\n\nAll Roles are Unique by default.\n\nSome roles, such as the Shaman, may cause there to be a copy of a Unique character despite their uniquity."),
+                    "Unique",
+                    new Color32(255, 250, 110, 255)
+                );
+            }
+            if (linkID == "Link_L-astStand")
+            {
+                __result = new TooltipInfo(
+                    patcher.PatchTooltip($"Ability trigger. Last Stand abilities are triggered when the only living members of a character's team are characters who have a Last Stand ability."),
+                    "Last Stand",
+                    new Color32(194, 255, 221, 255)
+                );
+            }
+            if (linkID == "Link_C-onspire")
+            {
+                __result = new TooltipInfo(
+                    patcher.PatchTooltip($"Characters who Conspire would otherwise be Good, but have become Evil for one reason or another.\n\nWord choice by @bitterbugthe2nd on Discord."),
+                    "Conspire",
+                    new Color32(209, 77, 139, 255)
+                );
+            }
+            if (linkID == "Link_R-epent")
+            {
+                __result = new TooltipInfo(
+                    patcher.PatchTooltip($"Characters who Repent would otherwise be Evil, but have become Good for one reason or another.\n\nWord choice by @bitterbugthe2nd on Discord."),
+                    "Repent",
+                    new Color32(148, 242, 200, 255)
+                );
+            }
+            if (linkID == "Link_A-ctivate")
+            {
+                __result = new TooltipInfo(
+                    patcher.PatchTooltip($"An ability being used.\n\nMost abilities Activate when a certain trigger is met or at a certain time."),
+                    "Activate",
+                    new Color32(89, 130, 227, 255)
+                );
+            }
+            if (linkID == "Link_D-evoted")
+            {
+                __result = new TooltipInfo(
+                    patcher.PatchTooltip($"This character starts Revealed."),
+                    "Devoted",
+                    new Color32(82, 255, 255, 255)
                 );
             }
         }
